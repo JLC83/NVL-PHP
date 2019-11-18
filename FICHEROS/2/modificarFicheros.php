@@ -1,5 +1,5 @@
 <?php
-function reemplazar($fOriginal:string,$fnuevo:string,$palabra:string,$sustituta:string){
+function reemplazar($fOriginal:String,$fnuevo:String,$palabra:String,$sustituta:String){
 	$fd=fopen($fOriginal,'r+');//abrimos el fichero de lectura y escritura al principio del mismo
 	$fdnueva=fopen($fnuevo,'w');//abrimos y creamos el fichero nuevo
 
